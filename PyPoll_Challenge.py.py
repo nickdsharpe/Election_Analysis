@@ -94,7 +94,7 @@ with open(file_to_save, "w") as txt_file:
         # 6b: Retrieve the county vote count.
         vote_count = county_votes.get(county)
         # 6c: Calculate the percentage of votes for the county.
-        vote_percentage = float(vote_count) / float(total_votes)
+        vote_percentage = float(vote_count) / float(total_votes) *100
 
          # 6d: Print the county results to the terminal.
         county_results = (
