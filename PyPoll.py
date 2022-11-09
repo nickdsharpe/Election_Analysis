@@ -2,7 +2,7 @@ import csv
 import os
 
 # Assign variables for load and save file
-file_to_load = 'election_results.csv'
+file_to_load = os.path.join('Resources', 'election_results.csv')
 file_to_save = os.path.join("analysis", "election_analysis.txt")
 
 # Initialize total vote counter
